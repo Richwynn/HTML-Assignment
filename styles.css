@@ -1,0 +1,305 @@
+img table{
+    width:180px;
+    height:auto;
+}
+
+#Home{
+    background-image:url("OnlyBackground.png");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#Products{
+    background-image:url("OnlyBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#Branches{
+    background-image:url("OnlyBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#about{
+    background-image:url("OnlyBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#cinnamoncoffee{
+    background-image:url("OnlyBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#chocolatelatte{
+    background-image:url("OnlyBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#strawberryfrappucino{
+    background-image:url("OnlyBackground.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    color: #4e310d;
+    @import url('https://fonts.cdnfonts.com/css/seattle');
+    font-family: 'Seattle', sans-serif;
+}
+
+
+#product_text{
+    padding: 50px 10px 30px 170px;
+    width:32%;
+}
+
+#product_text h2{
+    padding-left: 60px;
+    font-size: 35px;
+    text-align: center;
+}
+
+#product_text p{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#outline{
+    display:inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#address h2{
+    padding-left: 80px;
+    padding-bottom: 5px;
+}
+
+#address{
+    width:200%;
+    margin-top: 25px;
+    padding-left: 43px;
+    padding-right: 0px;
+    font-size: 19px;
+}
+
+#address li{
+    padding-bottom: 6px;
+}
+
+#coffeehouse img{
+    width:450px;
+    padding: 10px 150px 10px 0px;
+}
+
+#box{
+    display:inline-flex;
+    height:100%;
+}
+
+#story{
+    width:90%;
+    margin-top: 40px;
+    margin-left: 0px;
+    text-indent: 40px;
+}
+
+#barista img{
+    width:300px;
+    padding-left: 10px;
+    margin: 0px 35px 10px 30px;
+}
+
+
+#total{
+    display: inline-flex;
+    width:90%;
+    height:90%;
+    padding-left: 80px;
+    justify-content:space-around;
+}
+
+#text{
+    text-align:left;
+    margin-right: 120px;
+    width:70%;
+}
+
+#text p{
+    font-size: 20px;
+}
+
+button{
+    transition: all .5s ease-out; 
+}
+
+button:hover{
+    box-shadow: 0 0 70px -10px #4e310d;
+    transform:scale(1.005);
+}
+
+#text button{
+    margin-left: 80px;
+    width:50%;
+    height:13%;
+    font-size: 18px;
+    background-color: #e7d4c2;
+    border-radius: 6px;
+}
+
+#text h2{
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+#cup{
+    width:90%;
+    height:105%;
+    padding-bottom: 10px;
+}
+
+
+ul{
+    margin-left:20px;
+}
+
+body{
+    font-size: 18px;
+}
+
+h1{
+    margin-left: 30px;
+}
+
+p{
+    margin: 0px 30px 40px 40px;
+}
+
+#tiny{
+    float:right;
+    width:80px;
+    height:auto;
+}
+
+#block{
+    display: inline-block;
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+
+#block img{
+    position:relative;
+    width: 50px;
+    height: auto;
+    padding:15px;
+    }
+    
+#block h1{
+    float:left;
+    }
+
+nav{
+    margin:18px 20px 0px 18px;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+table{
+    display: flex;
+    justify-content: space-evenly;
+    text-align:center;
+    padding-top: 40px;
+}
+
+table a:hover{
+    color:#8a683c;
+    font-size: 22px;
+}
+
+
+#drink_names{
+    font-size: 23px;
+}
+
+.coffee{
+    height:290px;
+}
+
+nav a:hover {
+    color:#d2b08f;
+  }
+
+nav a{
+    padding:9px 13px 5px 13px;
+    border-radius: 3px;
+    color:#40220d;
+    text-decoration: none;
+  }
+
+h1:not(#toop){
+    margin-top: 29px;
+}
+
+body p{
+    padding-bottom: 10px;
+    width:95%;
+}
+
+body{
+    position:relative;
+    min-height: 98vh;
+    margin:0px;
+}
+
+#footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 12px;
+    padding-bottom: 12px;
+} 
+
+footer div{
+    color:#d2b08f;
+}
+
+@media screen and (max-width:800px){
+    body p{
+        padding-bottom: 10px;
+        width:90%;
+    }
+    .coffee{
+        height:220px;
+        width:auto;
+        padding:1px;
+    }
+}
+   
+
+    #landing__nowboarding{
+      max-width:500px;
+    }
+    #landing__mainlogo{
+      max-width:500px;
+    }
+
+    @media screen and (max-width:390px){
+        #landing__nowboarding{
+          max-width:500px;
+        }
+        #landing__mainlogo{
+          max-width:500px;
+        }
+    }
